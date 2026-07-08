@@ -13,7 +13,6 @@ function App() {
   const [employees, setEmployees] = useState([]);
   const [selectedEmployee, setSelectedEmployee] = useState(null);
 
-  // Load employees when app starts
   useEffect(() => {
     loadEmployees();
   }, []);
